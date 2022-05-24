@@ -1,0 +1,141 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:hsl(218, 28%, 13%);
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 150px;
+}
+header>img{
+  padding-left:0;
+  display: block;
+  margin-left:-70px;
+  margin-top: -10px;
+  transform: scale(0.3)
+}
+.nav{
+  display:flex;
+  gap: 20px;
+  color:white;
+  margin-top: 9px;
+}
+.nav>a{
+  text-decoration: none;
+  color: white;
+  font-size: 8px;
+  font-weight: bolder;
+}
+main{
+  margin-top:-200px;
+  gap:5px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main>div>img{
+  transform: scale(0.28)
+}
+.txt{
+  margin-top:-170px;
+  display: flex;
+  flex-direction: column;
+  line-height:0em;
+  justify-content: center;
+  align-items: center;
+}
+.txt>p{
+  color:white;
+  margin-top:4px;
+  font-size: 10px;
+  font-weight: 900;
+}
+.txt2{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  font-size: 6px;
+  width:45vw;
+}
+.txt2>p{
+  margin-top:-7px;
+  color:grey;
+}
+.button{
+  color:white;
+  font-size: 7px;
+  background-color: skyblue;
+  border-radius: 50px;
+  width: 80px;
+  height: 15px;
+  padding:auto;
+  margin-top:-5px;
+}
+section{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:100px;
+  transform: scale(0.9)
+}
+.first,.second{
+  display: flex;
+  gap:2px;
+  line-height:0.1em;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+.first>img,.second>img{
+  transform: scale(0.5)
+}
+.first>h1,.second>h1{
+  display: inline-block;
+  font-size: 8px;
+  color:white;
+  font-weight: 800;
+}
+.first>p,.second>p{
+  font-size:6px;
+  color:white;
+  font-weight:300;
+}
+.prod{
+  display:flex;
+  margin-top:-130px;
+  gap:-30px;
+  margin-left:-170px;
+}
+.prod>img{
+  transform: scale(0.35)
+}
+.prod>.form{
+  display:flex;
+  flex-direction: column;
+  margin-left: -280px;
+}
+.form h1{
+  color:white;
+  font-size: 15px;
+  display:inline-block;
+  width:150px;
+  font-weight:900;
+}
+.form p{
+  color:white;
+  font-size: 6px;
+  display:inline-block;
+  width:180px;
+  font-weight:200;
+  margin-top:0px;
+}
